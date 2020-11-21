@@ -1559,12 +1559,12 @@ F 3 "~" H 16450 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise J?
+L Connector_Generic:Conn_02x12_Counter_Clockwise J1
 U 1 1 60C6FB89
 P 13700 1700
-F 0 "J?" H 13750 2417 50  0000 C CNN
+F 0 "J1" H 13750 2417 50  0000 C CNN
 F 1 "Control Lines" H 13750 2326 50  0000 C CNN
-F 2 "" H 13700 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 13700 1700 50  0001 C CNN
 F 3 "~" H 13700 1700 50  0001 C CNN
 	1    13700 1700
 	1    0    0    -1  
@@ -1637,12 +1637,12 @@ Wire Wire Line
 	14600 1400 14600 1300
 Connection ~ 14600 1300
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+L Connector_Generic:Conn_02x08_Counter_Clockwise J3
 U 1 1 60D9AA26
 P 16550 4850
-F 0 "J?" H 16600 5367 50  0000 C CNN
+F 0 "J3" H 16600 5367 50  0000 C CNN
 F 1 "Data Lines" H 16600 5276 50  0000 C CNN
-F 2 "" H 16550 4850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 16550 4850 50  0001 C CNN
 F 3 "~" H 16550 4850 50  0001 C CNN
 	1    16550 4850
 	1    0    0    -1  
