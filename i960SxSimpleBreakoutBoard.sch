@@ -1414,19 +1414,19 @@ Wire Wire Line
 	11750 2350 12250 2350
 Text Label 11750 2350 0    50   ~ 0
 ~RESET
-Text Label 11750 2950 0    50   ~ 0
+Text Label 11750 2450 0    50   ~ 0
 CLK2
 Wire Wire Line
 	11750 2950 12250 2950
-Text Label 11750 2250 0    50   ~ 0
+Text Label 11750 1750 0    50   ~ 0
 HOLD
-Text Label 11750 2150 0    50   ~ 0
+Text Label 11750 950  0    50   ~ 0
 ~READY
 Wire Wire Line
 	11750 2250 12250 2250
 Wire Wire Line
 	11750 2150 12250 2150
-Text Label 11750 2450 0    50   ~ 0
+Text Label 11750 1250 0    50   ~ 0
 ~LOCK
 Wire Wire Line
 	11750 2550 12250 2550
@@ -1434,15 +1434,15 @@ Wire Wire Line
 	11750 2650 12250 2650
 Wire Wire Line
 	11750 2750 12250 2750
-Text Label 11750 2850 0    50   ~ 0
+Text Label 11750 1350 0    50   ~ 0
 ~BLAST
 Wire Wire Line
 	12250 2850 11750 2850
-Text Label 11750 2550 0    50   ~ 0
-BA1
 Text Label 11750 2750 0    50   ~ 0
+BA1
+Text Label 11750 2950 0    50   ~ 0
 BA3
-Text Label 11750 2650 0    50   ~ 0
+Text Label 11750 2850 0    50   ~ 0
 BA2
 Wire Wire Line
 	11750 2050 12250 2050
@@ -1450,41 +1450,41 @@ Wire Wire Line
 	11750 1950 12250 1950
 Wire Wire Line
 	11750 1850 12250 1850
-Text Label 11750 1950 0    50   ~ 0
-INT2
-Text Label 11750 1850 0    50   ~ 0
-INT1
 Text Label 11750 2050 0    50   ~ 0
+INT2
+Text Label 11750 2150 0    50   ~ 0
+INT1
+Text Label 11750 1950 0    50   ~ 0
 ~INT3
 Wire Wire Line
 	11750 950  12250 950 
-Text Label 11750 950  0    50   ~ 0
+Text Label 11750 1050 0    50   ~ 0
 ALE
 Wire Wire Line
 	11750 1550 12250 1550
 Wire Wire Line
 	11750 1650 12250 1650
-Text Label 11750 1550 0    50   ~ 0
+Text Label 11750 2650 0    50   ~ 0
 ~BE1
-Text Label 11750 1650 0    50   ~ 0
+Text Label 11750 2550 0    50   ~ 0
 ~BE0
 Wire Wire Line
 	11750 1750 12250 1750
-Text Label 11750 1750 0    50   ~ 0
+Text Label 11750 2250 0    50   ~ 0
 ~INT0
-Text Label 11750 1050 0    50   ~ 0
+Text Label 11750 1150 0    50   ~ 0
 ~AS
 Wire Wire Line
 	11750 1050 12250 1050
-Text Label 11750 1250 0    50   ~ 0
+Text Label 11750 1550 0    50   ~ 0
 ~DEN
-Text Label 11750 1150 0    50   ~ 0
+Text Label 11750 1450 0    50   ~ 0
 DT\~R
-Text Label 11750 1350 0    50   ~ 0
+Text Label 11750 1650 0    50   ~ 0
 W\~R
 Wire Wire Line
 	11750 1450 12250 1450
-Text Label 11750 1450 0    50   ~ 0
+Text Label 11750 1850 0    50   ~ 0
 HLDA
 Wire Wire Line
 	12250 1250 11750 1250
