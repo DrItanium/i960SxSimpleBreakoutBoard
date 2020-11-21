@@ -1429,11 +1429,11 @@ Wire Wire Line
 Wire Wire Line
 	11550 3150 12250 3150
 $Comp
-L Connector_Generic:Conn_01x32 J?
+L Connector_Generic:Conn_01x32 J2
 U 1 1 606DD184
 P 12450 5750
-F 0 "J?" H 12530 5742 50  0000 L CNN
-F 1 "Conn_01x32" H 12530 5651 50  0000 L CNN
+F 0 "J2" H 12530 5742 50  0000 L CNN
+F 1 "Address LInes" H 12530 5651 50  0000 L CNN
 F 2 "" H 12450 5750 50  0001 C CNN
 F 3 "~" H 12450 5750 50  0001 C CNN
 	1    12450 5750
@@ -1567,4 +1567,79 @@ Text Label 10400 7250 0    50   ~ 0
 A30
 Text Label 10400 7350 0    50   ~ 0
 A31
+$Comp
+L Connector_Generic:Conn_01x16 J3
+U 1 1 609DCE40
+P 16550 5250
+F 0 "J3" H 16630 5242 50  0000 L CNN
+F 1 "Data Lines" H 16630 5151 50  0000 L CNN
+F 2 "" H 16550 5250 50  0001 C CNN
+F 3 "~" H 16550 5250 50  0001 C CNN
+	1    16550 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16350 4650 14500 4650
+Wire Wire Line
+	16350 4750 14500 4750
+Wire Wire Line
+	16350 4850 14500 4850
+Wire Wire Line
+	16350 4950 14500 4950
+Wire Wire Line
+	16350 5050 14500 5050
+Wire Wire Line
+	16350 5150 14500 5150
+Wire Wire Line
+	16350 5250 14500 5250
+Wire Wire Line
+	16350 4550 14500 4550
+Wire Wire Line
+	14500 5350 16350 5350
+Wire Wire Line
+	14500 5450 16350 5450
+Wire Wire Line
+	14500 5550 16350 5550
+Wire Wire Line
+	14500 5650 16350 5650
+Wire Wire Line
+	14500 5750 16350 5750
+Wire Wire Line
+	14500 5850 16350 5850
+Wire Wire Line
+	14500 5950 16350 5950
+Wire Wire Line
+	14500 6050 16350 6050
+Text Label 14500 4550 0    50   ~ 0
+D0
+Text Label 14500 4650 0    50   ~ 0
+D1
+Text Label 14500 4750 0    50   ~ 0
+D2
+Text Label 14500 4850 0    50   ~ 0
+D3
+Text Label 14500 4950 0    50   ~ 0
+D4
+Text Label 14500 5050 0    50   ~ 0
+D5
+Text Label 14500 5150 0    50   ~ 0
+D6
+Text Label 14500 5250 0    50   ~ 0
+D7
+Text Label 14500 5350 0    50   ~ 0
+D8
+Text Label 14500 5450 0    50   ~ 0
+D9
+Text Label 14500 5550 0    50   ~ 0
+D10
+Text Label 14500 5650 0    50   ~ 0
+D11
+Text Label 14500 5750 0    50   ~ 0
+D12
+Text Label 14500 5850 0    50   ~ 0
+D13
+Text Label 14500 5950 0    50   ~ 0
+D14
+Text Label 14500 6050 0    50   ~ 0
+D15
 $EndSCHEMATC
