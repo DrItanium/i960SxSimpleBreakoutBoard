@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "i960 Partially Multiplexed Board"
 Date "2020-09-29"
 Rev "2"
@@ -877,10 +877,167 @@ F 3 "~" H 10300 3050 50  0001 C CNN
 	1    10300 3050
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 12150 4750 2550 1300
-U 5FD01519
-F0 "Sheet5FD01518" 50
-F1 "MultiplexedLines.sch" 50
-$EndSheet
+NoConn ~ 13950 3500
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J6
+U 1 1 5FB3656E
+P 18600 3350
+F 0 "J6" H 18650 3867 50  0000 C CNN
+F 1 "Upper 16 Address Lines" H 18650 3776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 18600 3350 50  0001 C CNN
+F 3 "~" H 18600 3350 50  0001 C CNN
+	1    18600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J5
+U 1 1 5FAE9B72
+P 14150 3600
+F 0 "J5" H 14200 4217 50  0000 C CNN
+F 1 "Multiplexed Address/Data Lines" H 14200 4126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 14150 3600 50  0001 C CNN
+F 3 "~" H 14150 3600 50  0001 C CNN
+	1    14150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15650 3900 14450 3900
+Wire Wire Line
+	14450 3800 15650 3800
+Wire Wire Line
+	15650 3700 14450 3700
+Wire Wire Line
+	14450 3600 15650 3600
+Wire Wire Line
+	15650 3500 14450 3500
+Wire Wire Line
+	14450 3400 15650 3400
+Wire Wire Line
+	15650 3300 14450 3300
+Wire Wire Line
+	14450 3200 15650 3200
+Text Label 15650 4000 2    50   ~ 0
+AD7
+Text Label 15650 3900 0    50   ~ 0
+AD8
+Text Label 15650 3800 0    50   ~ 0
+AD9
+Text Label 15650 3700 0    50   ~ 0
+AD10
+Text Label 15650 3600 0    50   ~ 0
+AD11
+Text Label 15650 3500 0    50   ~ 0
+AD12
+Text Label 15650 3400 0    50   ~ 0
+AD13
+Text Label 15650 3300 0    50   ~ 0
+AD14
+Text Label 15650 3200 0    50   ~ 0
+AD15
+Wire Wire Line
+	14450 4000 15650 4000
+Text Label 12750 3200 0    50   ~ 0
+DT\~R
+Text Label 12750 3300 0    50   ~ 0
+~DEN
+Wire Wire Line
+	15650 4100 14450 4100
+Text Label 12750 3400 0    50   ~ 0
+ALE
+Wire Wire Line
+	13950 3400 12750 3400
+Text Label 12750 3600 2    50   ~ 0
+D0
+Wire Wire Line
+	12750 3200 13950 3200
+Text Label 15650 4100 0    50   ~ 0
+AD6
+Text Label 12750 4100 2    50   ~ 0
+AD5
+Text Label 12750 4000 2    50   ~ 0
+AD4
+Text Label 12750 3900 2    50   ~ 0
+AD3
+Text Label 12750 3800 2    50   ~ 0
+AD2
+Text Label 12750 3700 2    50   ~ 0
+AD1
+Wire Wire Line
+	13950 4100 12750 4100
+Wire Wire Line
+	12750 4000 13950 4000
+Wire Wire Line
+	13950 3900 12750 3900
+Wire Wire Line
+	12750 3800 13950 3800
+Wire Wire Line
+	13950 3700 12750 3700
+Wire Wire Line
+	12750 3600 13950 3600
+Wire Wire Line
+	13950 3300 12750 3300
+Text Label 17200 3050 0    50   ~ 0
+A16
+Text Label 17200 3150 0    50   ~ 0
+A17
+Text Label 17200 3250 0    50   ~ 0
+A18
+Text Label 17200 3350 0    50   ~ 0
+A19
+Text Label 17200 3450 0    50   ~ 0
+A20
+Text Label 17200 3550 0    50   ~ 0
+A21
+Text Label 17200 3650 0    50   ~ 0
+A22
+Text Label 17200 3750 0    50   ~ 0
+A23
+Text Label 20100 3750 2    50   ~ 0
+A24
+Text Label 20100 3650 2    50   ~ 0
+A25
+Text Label 20100 3550 2    50   ~ 0
+A26
+Text Label 20100 3450 2    50   ~ 0
+A27
+Text Label 20100 3350 2    50   ~ 0
+A28
+Text Label 20100 3250 2    50   ~ 0
+A29
+Text Label 20100 3150 2    50   ~ 0
+A30
+Text Label 20100 3050 2    50   ~ 0
+A31
+Wire Wire Line
+	18900 3050 20100 3050
+Wire Wire Line
+	20100 3150 18900 3150
+Wire Wire Line
+	18900 3250 20100 3250
+Wire Wire Line
+	20100 3350 18900 3350
+Wire Wire Line
+	18900 3450 20100 3450
+Wire Wire Line
+	20100 3550 18900 3550
+Wire Wire Line
+	18900 3650 20100 3650
+Wire Wire Line
+	20100 3750 18900 3750
+Wire Wire Line
+	18400 3750 17200 3750
+Wire Wire Line
+	17200 3650 18400 3650
+Wire Wire Line
+	17200 3050 18400 3050
+Wire Wire Line
+	18400 3150 17200 3150
+Wire Wire Line
+	17200 3250 18400 3250
+Wire Wire Line
+	18400 3350 17200 3350
+Wire Wire Line
+	17200 3450 18400 3450
+Wire Wire Line
+	18400 3550 17200 3550
 $EndSCHEMATC
