@@ -584,50 +584,6 @@ Text Label 6550 4400 0    50   ~ 0
 CLK2
 Text Label 8200 4500 0    50   ~ 0
 ~RESET
-$Comp
-L mechanical:Mounting_Hole MK1
-U 1 1 60038A23
-P 8400 6800
-F 0 "MK1" H 8500 6846 50  0000 L CNN
-F 1 "Mounting_Hole" H 8500 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8400 6800 50  0001 C CNN
-F 3 "" H 8400 6800 50  0001 C CNN
-	1    8400 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L mechanical:Mounting_Hole MK3
-U 1 1 60038C4E
-P 9250 6800
-F 0 "MK3" H 9350 6846 50  0000 L CNN
-F 1 "Mounting_Hole" H 9350 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9250 6800 50  0001 C CNN
-F 3 "" H 9250 6800 50  0001 C CNN
-	1    9250 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L mechanical:Mounting_Hole MK2
-U 1 1 60038F7C
-P 8400 7300
-F 0 "MK2" H 8500 7346 50  0000 L CNN
-F 1 "Mounting_Hole" H 8500 7255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 8400 7300 50  0001 C CNN
-F 3 "" H 8400 7300 50  0001 C CNN
-	1    8400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L mechanical:Mounting_Hole MK4
-U 1 1 600390A6
-P 9250 7350
-F 0 "MK4" H 9350 7396 50  0000 L CNN
-F 1 "Mounting_Hole" H 9350 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 9250 7350 50  0001 C CNN
-F 3 "" H 9250 7350 50  0001 C CNN
-	1    9250 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 7500 4850 7500
 $Comp
