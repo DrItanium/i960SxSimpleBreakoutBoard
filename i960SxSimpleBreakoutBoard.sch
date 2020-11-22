@@ -1323,156 +1323,134 @@ F 3 "~" H 16550 5250 50  0001 C CNN
 	1    16550 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J4
-U 1 1 60E133C2
-P 16550 7300
-F 0 "J4" H 16630 7292 50  0000 L CNN
-F 1 "Address Lines Upper" H 16630 7201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 16550 7300 50  0001 C CNN
-F 3 "~" H 16550 7300 50  0001 C CNN
-	1    16550 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x16 J2
-U 1 1 60E11D96
-P 12450 4950
-F 0 "J2" H 12530 4942 50  0000 L CNN
-F 1 "Address Lines Lower" H 12530 4851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 12450 4950 50  0001 C CNN
-F 3 "~" H 12450 4950 50  0001 C CNN
-	1    12450 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	16350 6700 14500 6700
+	12200 8050 14050 8050
 Wire Wire Line
-	16350 6800 14500 6800
+	12200 7950 14050 7950
 Wire Wire Line
-	16350 6900 14500 6900
+	12200 7850 14050 7850
 Wire Wire Line
-	16350 7000 14500 7000
+	12200 7750 14050 7750
 Wire Wire Line
-	16350 7100 14500 7100
+	12200 7650 14050 7650
 Wire Wire Line
-	16350 7200 14500 7200
+	12200 7550 14050 7550
 Wire Wire Line
-	16350 7300 14500 7300
+	12200 7450 14050 7450
 Wire Wire Line
-	16350 6600 14500 6600
+	12200 8150 14050 8150
 Wire Wire Line
-	14500 7400 16350 7400
+	14050 7350 12200 7350
 Wire Wire Line
-	14500 7500 16350 7500
+	14050 7250 12200 7250
 Wire Wire Line
-	14500 7600 16350 7600
+	14050 7150 12200 7150
 Wire Wire Line
-	14500 7700 16350 7700
+	14050 7050 12200 7050
 Wire Wire Line
-	14500 7800 16350 7800
+	14050 6950 12200 6950
 Wire Wire Line
-	14500 7900 16350 7900
+	14050 6850 12200 6850
 Wire Wire Line
-	14500 8000 16350 8000
+	14050 6750 12200 6750
 Wire Wire Line
-	14500 8100 16350 8100
-Text Label 14500 6600 0    50   ~ 0
+	14050 6650 12200 6650
+Text Label 14050 8150 2    50   ~ 0
 A16
-Text Label 14500 6700 0    50   ~ 0
+Text Label 14050 8050 2    50   ~ 0
 A17
-Text Label 14500 6800 0    50   ~ 0
+Text Label 14050 7950 2    50   ~ 0
 A18
-Text Label 14500 6900 0    50   ~ 0
+Text Label 14050 7850 2    50   ~ 0
 A19
-Text Label 14500 7000 0    50   ~ 0
+Text Label 14050 7750 2    50   ~ 0
 A20
-Text Label 14500 7100 0    50   ~ 0
+Text Label 14050 7650 2    50   ~ 0
 A21
-Text Label 14500 7200 0    50   ~ 0
+Text Label 14050 7550 2    50   ~ 0
 A22
-Text Label 14500 7300 0    50   ~ 0
+Text Label 14050 7450 2    50   ~ 0
 A23
-Text Label 14500 7400 0    50   ~ 0
+Text Label 14050 7350 2    50   ~ 0
 A24
-Text Label 14500 7500 0    50   ~ 0
+Text Label 14050 7250 2    50   ~ 0
 A25
-Text Label 14500 7600 0    50   ~ 0
+Text Label 14050 7150 2    50   ~ 0
 A26
-Text Label 14500 7700 0    50   ~ 0
+Text Label 14050 7050 2    50   ~ 0
 A27
-Text Label 14500 7800 0    50   ~ 0
+Text Label 14050 6950 2    50   ~ 0
 A28
-Text Label 14500 7900 0    50   ~ 0
+Text Label 14050 6850 2    50   ~ 0
 A29
-Text Label 14500 8000 0    50   ~ 0
+Text Label 14050 6750 2    50   ~ 0
 A30
-Text Label 14500 8100 0    50   ~ 0
+Text Label 14050 6650 2    50   ~ 0
 A31
 Wire Wire Line
-	12250 4350 10400 4350
+	11700 6750 9850 6750
 Wire Wire Line
-	12250 4450 10400 4450
+	11700 6850 9850 6850
 Wire Wire Line
-	12250 4550 10400 4550
+	11700 6950 9850 6950
 Wire Wire Line
-	12250 4650 10400 4650
+	11700 7050 9850 7050
 Wire Wire Line
-	12250 4750 10400 4750
+	11700 7150 9850 7150
 Wire Wire Line
-	12250 4850 10400 4850
+	11700 7250 9850 7250
 Wire Wire Line
-	12250 4950 10400 4950
-Text Label 10400 4350 0    50   ~ 0
+	11700 7350 9850 7350
+Text Label 9850 6750 0    50   ~ 0
 A1
-Text Label 10400 4450 0    50   ~ 0
+Text Label 9850 6850 0    50   ~ 0
 A2
-Text Label 10400 4550 0    50   ~ 0
+Text Label 9850 6950 0    50   ~ 0
 A3
-Text Label 10400 4650 0    50   ~ 0
+Text Label 9850 7050 0    50   ~ 0
 A4
-Text Label 10400 4750 0    50   ~ 0
+Text Label 9850 7150 0    50   ~ 0
 A5
-Text Label 10400 4850 0    50   ~ 0
+Text Label 9850 7250 0    50   ~ 0
 A6
-Text Label 10400 4950 0    50   ~ 0
+Text Label 9850 7350 0    50   ~ 0
 A7
 Wire Wire Line
-	12250 4250 10400 4250
-Text Label 10400 4250 0    50   ~ 0
+	11700 6650 9850 6650
+Text Label 9850 6650 0    50   ~ 0
 A0
-Text Label 10400 5050 0    50   ~ 0
+Text Label 9850 7450 0    50   ~ 0
 A8
-Text Label 10400 5150 0    50   ~ 0
+Text Label 9850 7550 0    50   ~ 0
 A9
-Text Label 10400 5250 0    50   ~ 0
+Text Label 9850 7650 0    50   ~ 0
 A10
-Text Label 10400 5350 0    50   ~ 0
+Text Label 9850 7750 0    50   ~ 0
 A11
-Text Label 10400 5450 0    50   ~ 0
+Text Label 9850 7850 0    50   ~ 0
 A12
-Text Label 10400 5550 0    50   ~ 0
+Text Label 9850 7950 0    50   ~ 0
 A13
-Text Label 10400 5650 0    50   ~ 0
+Text Label 9850 8050 0    50   ~ 0
 A14
-Text Label 10400 5750 0    50   ~ 0
+Text Label 9850 8150 0    50   ~ 0
 A15
 Wire Wire Line
-	10400 5050 12250 5050
+	9850 7450 11700 7450
 Wire Wire Line
-	10400 5150 12250 5150
+	9850 7550 11700 7550
 Wire Wire Line
-	10400 5250 12250 5250
+	9850 7650 11700 7650
 Wire Wire Line
-	10400 5350 12250 5350
+	9850 7750 11700 7750
 Wire Wire Line
-	10400 5450 12250 5450
+	9850 7850 11700 7850
 Wire Wire Line
-	10400 5550 12250 5550
+	9850 7950 11700 7950
 Wire Wire Line
-	10400 5650 12250 5650
+	9850 8050 11700 8050
 Wire Wire Line
-	10400 5750 12250 5750
+	9850 8150 11700 8150
 Text Label 13800 10100 2    50   ~ 0
 D7
 Text Label 13800 10000 2    50   ~ 0
@@ -1609,4 +1587,15 @@ Wire Wire Line
 	11900 10400 11500 10400
 Wire Wire Line
 	11900 10300 11500 10300
+$Comp
+L Connector_Generic:Conn_02x16_Counter_Clockwise J2
+U 1 1 61905D9E
+P 11900 7350
+F 0 "J2" H 11950 8267 50  0000 C CNN
+F 1 "Conn_02x16_Counter_Clockwise" H 11950 8176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 11900 7350 50  0001 C CNN
+F 3 "~" H 11900 7350 50  0001 C CNN
+	1    11900 7350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
