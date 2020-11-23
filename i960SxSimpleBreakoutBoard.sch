@@ -688,7 +688,7 @@ Wire Wire Line
 	10650 3550 10950 3550
 Wire Wire Line
 	10650 3450 10950 3450
-Text Label 10950 3550 0    50   ~ 0
+Text Label 11450 2100 0    50   ~ 0
 ~INT3
 Text Label 10950 3450 0    50   ~ 0
 ~LOCK
@@ -715,16 +715,16 @@ Text Label 6550 3900 0    50   ~ 0
 Text Label 6550 4000 0    50   ~ 0
 ALE
 Wire Wire Line
-	9600 2400 10100 2400
+	11450 1900 11950 1900
 Wire Wire Line
-	9600 2500 10100 2500
-Text Label 9600 2400 0    50   ~ 0
+	11450 2000 11950 2000
+Text Label 11450 1900 0    50   ~ 0
 ~READY
 Text Label 6550 4100 0    50   ~ 0
 ~READY
 Text Label 6600 4200 0    50   ~ 0
 HOLD
-Text Label 9600 2500 0    50   ~ 0
+Text Label 11450 2000 0    50   ~ 0
 HOLD
 Wire Wire Line
 	9650 3650 10150 3650
@@ -734,22 +734,22 @@ Text Label 6550 4400 0    50   ~ 0
 CLK2
 Text Label 8200 4500 0    50   ~ 0
 ~RESET
-Text Label 9600 2600 0    50   ~ 0
+Text Label 11450 2500 0    50   ~ 0
 ~RESET
 Wire Wire Line
-	9600 2600 10100 2600
-Text Label 11100 2600 2    50   ~ 0
+	11450 2500 11950 2500
+Text Label 11450 2400 0    50   ~ 0
 ~INT0
-Text Label 11100 2500 2    50   ~ 0
+Text Label 11450 2300 0    50   ~ 0
 INT1
-Text Label 11100 2400 2    50   ~ 0
+Text Label 11450 2200 0    50   ~ 0
 INT2
 Wire Wire Line
-	11100 2600 10600 2600
+	11450 2400 11950 2400
 Wire Wire Line
-	11100 2500 10600 2500
+	11450 2300 11950 2300
 Wire Wire Line
-	11100 2400 10600 2400
+	11450 2200 11950 2200
 $Comp
 L power:GND #PWR08
 U 1 1 5FE9A25E
@@ -874,17 +874,6 @@ Wire Wire Line
 	10350 5650 10850 5650
 Wire Wire Line
 	10350 5550 10850 5550
-$Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J2
-U 1 1 60272919
-P 10300 2500
-F 0 "J2" H 10350 2817 50  0000 C CNN
-F 1 "Pure Input Pins" H 10350 2726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10300 2500 50  0001 C CNN
-F 3 "~" H 10300 2500 50  0001 C CNN
-	1    10300 2500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Counter_Clockwise J3
 U 1 1 6028FA37
@@ -1030,4 +1019,17 @@ F 3 "~" H 18600 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 13950 3500
+$Comp
+L Connector_Generic:Conn_01x11 J?
+U 1 1 5FBBE5ED
+P 12150 2400
+F 0 "J?" H 12230 2442 50  0000 L CNN
+F 1 "Conn_01x11" H 12230 2351 50  0000 L CNN
+F 2 "" H 12150 2400 50  0001 C CNN
+F 3 "~" H 12150 2400 50  0001 C CNN
+	1    12150 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11450 2100 11950 2100
 $EndSCHEMATC
